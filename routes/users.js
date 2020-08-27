@@ -25,21 +25,21 @@ router.get('/', (req, res, next) => {
 
 router.post('/add', (req, res, next) => {
   if( !req.body ){
-    res.send('Incorrect form. Try again');
+    createError(res, 404, 'Incorrect form. Try again');
   }
   users.push(req.body);
-  res.json({users});
+  res.send('User successfully added')
 })
 
 /* PUT */
 
 router.put('/:id', (req, res, next) => {
   if( !req.body ){
-    createError(res, 404, "Could not find the form content")
+    createError(res, 404, "Could not find the form content");
   }
   Object.assign(users[req.params.id], req.body);
 
-  res.json({users});
+  res.json('Changes are successfully saved');
 });
 
 /* GET/:id */
