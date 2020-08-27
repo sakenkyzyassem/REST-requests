@@ -5,64 +5,48 @@ const axios = require("axios");
 var users = []
 
 function createError (res, status, message) {
-  var err = new Error(message);
-  err.status = status;
-  res.render('error', {message, err})
+  var error = new Error(message);
+  error.status = status;
+  res.json({err});
 }
 
-/* GET users listing. */
+/* GET */
 router.get('/', (req, res, next) => {
   axios.get("https://jsonplaceholder.typicode.com/users")
     .then( (response) => {
-      var serverUsers = response.data;
-      res.render('users', {serverUsers, users});
+      users = response.data;
+      res.json({users});
     }).catch((error) => {
-      res.json("Error occured!")
+      res.createError(res, 404, 'Cannot find users list');
     }); 
 });
 
-router.get('/add', (req, res, next) => {
-  res.render('form');
-})
+/* ADD User */
 
 router.post('/add', (req, res, next) => {
   if( !req.body ){
     res.send('Incorrect form. Try again');
   }
   users.push(req.body);
-  res.render('index', { title: 'Express' });
+  res.json({users});
 })
 
-router.get('/edit/:id', (req, res, next) => {
-  var id = req.params.id;
+/* PUT */
 
-  if( !id ){
-    var userMessage="No index found. Try again"
-    res.render('users', {userMessage, users})
-  }
-  var user = users[id-11];
-
-  res.render('edit', {id, user});
-});
-
-router.put('edit/:id', (req, res, next) => {
+router.put('/:id', (req, res, next) => {
   if( !req.body ){
-    var userMessage="Changes were not saved. Try again"
-    res.render('users', {userMessage, users})
+    createError(res, 404, "Could not find the form content")
   }
-  Object.assign(users[req.params.id-11], req.body);
+  Object.assign(users[req.params.id], req.body);
 
-  res.render('index', {title: Express});
+  res.json({users});
 });
+
+/* GET/:id */
 
 router.get('/:id', (req, res, next) => {
   if(!req.params.id) {
-    createError(res, 404, 'No user username');
-  }
-
-  if( req.params.id > 10 ){
-    res.json(users[req.params.id-11]);
-    return;
+    createError(res, 404, 'No userID');
   }
 
   axios.get(`https://jsonplaceholder.typicode.com/users/${req.params.id}`)
