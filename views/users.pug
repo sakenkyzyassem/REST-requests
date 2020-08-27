@@ -1,0 +1,20 @@
+extends layout
+
+block content
+
+    if errorMessage
+        p= userMessage
+
+    h1 Users
+
+    ul
+        each user, i in serverUsers
+            a(href=`/users/${user.id}`) 
+                li= user.name
+        each user, i in users
+            a(href=`/users/${i+11}`) 
+                li= user.name
+            |
+            a(href=`/users/edit/${i+11}`) Edit
+
+    a(href="/users/add") Add User
