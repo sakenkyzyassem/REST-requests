@@ -323,24 +323,6 @@
    "city": "Summertown",
    "country": "Cuba",
    "birthDate": "09/02/2020"
-  },
-  {
-   "customerId": "5f4f508517aa5d0b0623595d",
-   "sumsubId": "5f4f508519a319cdfbc88594",
-   "externalId": "5f4f508550dccab09b97a111",
-   "firstName": "Massey",
-   "lastName": "Cline",
-   "email": "massey.cline@mail.us",
-   "phone": "+1 (904) 573-2548",
-   "status": "Active",
-   "registerDate": "03/05/2015",
-   "emailRegisterDate": "04/16/2019",
-   "emailStatus": "Verified",
-   "kycStatus": "Not Verified",
-   "address": "631 Whitney Avenue",
-   "city": "Needmore",
-   "country": "Indonesia",
-   "birthDate": "09/02/2020"
   }
  ]
 }
