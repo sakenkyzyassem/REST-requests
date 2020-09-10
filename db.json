@@ -1,4 +1,6 @@
 {
+	"users": [
+{
 	"id": 0,
 	"role": "ADMIN",
 	"name": "Natka",
@@ -147,4 +149,6 @@
 	"phone": 463986080,
 	"organization": "Saint Pierre and Miquelon",
 	"position": "Francistown"
+}
+		],
 }
