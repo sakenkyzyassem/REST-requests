@@ -6,7 +6,7 @@
          "firstname":"Natka",
          "lastname":"Gert",
          "email":"Natka.Gert@gmail.com",
-         "phone":191226564,
+         "phone":"191226564",
          "organization":"Paraguay",
          "position":"Semarang"
       },
@@ -16,7 +16,7 @@
          "firstname":"Gwyneth",
          "lastname":"Goldina",
          "email":"Gwyneth.Goldina@gmail.com",
-         "phone":152091513,
+         "phone":"152091513",
          "organization":"Bulgaria",
          "position":"Ürümqi"
       },
@@ -26,7 +26,7 @@
          "firstname":"Dagmar",
          "lastname":"Sabella",
          "email":"Dagmar.Sabella@gmail.com",
-         "phone":836786468,
+         "phone":"836786468",
          "organization":"Egypt",
          "position":"Naples"
       },
@@ -36,7 +36,7 @@
          "firstname":"Marline",
          "lastname":"Chem",
          "email":"Marline.Chem@gmail.com",
-         "phone":358629193,
+         "phone":"358629193",
          "organization":"Qatar",
          "position":"Ambon"
       },
@@ -46,7 +46,7 @@
          "firstname":"Kristan",
          "lastname":"Fitzsimmons",
          "email":"Kristan.Fitzsimmons@gmail.com",
-         "phone":168396062,
+         "phone":"168396062",
          "organization":"Svalbard and Jan Mayen",
          "position":"Harare"
       },
@@ -56,7 +56,7 @@
          "firstname":"Selma",
          "lastname":"Hebner",
          "email":"Selma.Hebner@gmail.com",
-         "phone":465655019,
+         "phone":"465655019",
          "organization":"Korea, Republic of",
          "position":"Ankara"
       },
@@ -66,7 +66,7 @@
          "firstname":"Sabina",
          "lastname":"Timon",
          "email":"Sabina.Timon@gmail.com",
-         "phone":299568739,
+         "phone":"299568739",
          "organization":"Lebanon",
          "position":"Belfast"
       },
@@ -76,7 +76,7 @@
          "firstname":"Linet",
          "lastname":"Zamora",
          "email":"Linet.Zamora@gmail.com",
-         "phone":779549559,
+         "phone":"779549559",
          "organization":"Honduras",
          "position":"Mwanza"
       },
@@ -86,7 +86,7 @@
          "firstname":"Paule",
          "lastname":"Modie",
          "email":"Paule.Modie@gmail.com",
-         "phone":313339924,
+         "phone":"313339924",
          "organization":"Russian Federation",
          "position":"Fredericton"
       },
@@ -96,7 +96,7 @@
          "firstname":"Melina",
          "lastname":"Mathilde",
          "email":"Melina.Mathilde@gmail.com",
-         "phone":703915167,
+         "phone":"703915167",
          "organization":"Albania",
          "position":"Khartoum"
       },
@@ -106,7 +106,7 @@
          "firstname":"Imojean",
          "lastname":"Casimir",
          "email":"Imojean.Casimir@gmail.com",
-         "phone":675584113,
+         "phone":"675584113",
          "organization":"Cuba",
          "position":"Dibrugarh"
       },
@@ -116,7 +116,7 @@
          "firstname":"Cacilie",
          "lastname":"Bohlin",
          "email":"Cacilie.Bohlin@gmail.com",
-         "phone":597073705,
+         "phone":"597073705",
          "organization":"India",
          "position":"Bursa"
       },
@@ -126,7 +126,7 @@
          "firstname":"Jean",
          "lastname":"Leffen",
          "email":"Jean.Leffen@gmail.com",
-         "phone":862958624,
+         "phone":"862958624",
          "organization":"Guernsey",
          "position":"Kano"
       },
@@ -136,7 +136,7 @@
          "firstname":"Kore",
          "lastname":"Liebermann",
          "email":"Kore.Liebermann@gmail.com",
-         "phone":286937817,
+         "phone":"286937817",
          "organization":"Antarctica",
          "position":"Samara"
       },
@@ -146,7 +146,7 @@
          "firstname":"Oona",
          "lastname":"Helfand",
          "email":"Oona.Helfand@gmail.com",
-         "phone":463986080,
+         "phone":"463986080",
          "organization":"Saint Pierre and Miquelon",
          "position":"Francistown"
       }
